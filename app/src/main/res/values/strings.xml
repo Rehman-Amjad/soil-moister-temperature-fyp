@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IOT Based System</string>
+
+    <string name="nitrogen_text">Nitrogen is the fuel for growth. It keeps the plant growing during the right season. It’s naturally found in many soils. High proportions of Nitrogen are used to advance leaves and growth and are the feeds for leafy growth.</string>
+
+    <string name="phosphorus_text">Phosphorous is the foundations and frame work food for plants. Plants use Phosphorous to build maintain the structures and systems for health growth and fruitfulness. It’s essential for all forms of growth.</string>
+
+    <string name="potassium_text">Potash, or Potassium is the flower and fruit food. It’s essential in combination with the other nutrients above but it’s the ‘quality food’ improving flower, fruiting, colour, and taste in edible crops.</string>
+</resources>

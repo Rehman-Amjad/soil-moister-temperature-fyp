@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512.000000dp"
+    android:height="512.000000dp"
+    android:viewportWidth="512.000000"
+    android:viewportHeight="512.000000">
+
+    <group
+        android:translateY="512.000000"
+        android:scaleX="0.100000"
+        android:scaleY="-0.100000">
+        <path
+            android:fillColor="@color/Frozi"
+            android:strokeWidth="1"
+            android:pathData="M2465 4885 c-224 -325 -339 -555 -352 -705 -21 -245 192 -470 447 -470 127 0 242 50 328 145 64 70 101 145 115 234 19 122 -12 228 -131 449 -70 128 -289 463 -309 469 -6 2 -50 -53 -98 -122z" />
+        <path
+            android:fillColor="@color/Frozi"
+            android:strokeWidth="1"
+            android:pathData="M1247 4258 c-317 -462 -533 -865 -612 -1138 -26 -87 -26 -259 -1 -350 69 -255 260 -452 516 -532 63 -19 96 -23 210 -23 148 0 225 17 340 75 183 92 330 275 386 480 25 91 25 263 -1 350 -52 181 -180 449 -348 729 -109 181 -357 553 -374 558 -6 2 -58 -65 -116 -149z" />
+        <path
+            android:fillColor="@color/Frozi"
+            android:strokeWidth="1"
+            android:pathData="M3647 4258 c-317 -462 -533 -865 -612 -1138 -26 -87 -26 -259 -1 -350 69 -255 260 -452 516 -532 63 -19 96 -23 210 -23 148 0 225 17 340 75 183 92 330 275 386 480 25 91 25 263 -1 350 -52 181 -180 449 -348 729 -109 181 -357 553 -374 558 -6 2 -58 -65 -116 -149z" />
+        <path
+            android:fillColor="@color/Frozi"
+            android:strokeWidth="1"
+            android:pathData="M0 1606 l0 -606 2560 0 2560 0 0 605 0 605 -101 0 c-281 0 -498 -95 -648 -284 -113 -142 -238 -234 -386 -283 -72 -24 -94 -27 -225 -27 -131 0 -153 3 -225 27 -44 14 -109 43 -145 64 -66 38 -186 151 -273 255 -96 116 -286 214 -458 238 -254 35 -537 -78 -689 -275 -104 -134 -239 -233 -385 -282 -72 -24 -94 -27 -225 -27 -131 0 -153 3 -225 27 -149 50 -264 134 -386 283 -72 88 -158 155 -264 204 -113 53 -190 70 -347 77 l-138 6 0 -607z" />
+        <path
+            android:fillColor="@color/Frozi"
+            android:strokeWidth="1"
+            android:pathData="M0 400 l0 -300 2560 0 2560 0 0 300 0 300 -2560 0 -2560 0 0 -300z" />
+    </group>
+</vector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_Moisture"
+        android:icon="@drawable/ic_moisture"
+        android:title="Moister Level"/>
+
+    <item android:id="@+id/menu_npk"
+        android:icon="@drawable/ic_soil"
+        android:title="NPK"/>
+
+    <item android:id="@+id/menu_soil"
+        android:icon="@drawable/ic_soil"
+        android:title="Soil Temperature"/>
+
+    <item android:id="@+id/menu_Air"
+        android:icon="@drawable/ic_temperature"
+        android:title="Air Temperature"/>
+
+    <item android:id="@+id/menu_Humidity"
+        android:icon="@drawable/ic_humidity"
+        android:title="Humidity"/>
+
+    <item android:id="@+id/menu_show_all_data"
+        android:icon="@drawable/ic_show"
+        android:title="History"/>
+
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+
+</menu>

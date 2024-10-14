@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NPKScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/Frozi"
+            android:gravity="center|start"
+            >
+
+
+            <ImageView
+                android:id="@+id/img_fire_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_arrow"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NPK Screen"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/npk_image"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="start|center"
+
+            >
+            <ImageView
+                android:id="@+id/imgMoisture"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:visibility="visible"
+                android:src="@drawable/ic_moisture_frozee"
+                />
+
+            <TextView
+                android:id="@+id/tv_moisture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soil Nitrogen"
+                android:visibility="visible"
+                android:textColor="@color/Frozi"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nitrogen_text"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="start|center"
+
+            >
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:visibility="visible"
+                android:src="@drawable/ic_moisture_frozee"
+                />
+
+            <TextView
+                android:id="@+id/tv_phos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soil Phosphorous"
+                android:visibility="visible"
+                android:textColor="@color/Frozi"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phosphorus_text"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="start|center"
+
+            >
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:visibility="visible"
+                android:src="@drawable/ic_moisture_frozee"
+                />
+
+            <TextView
+                android:id="@+id/tv_potassium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soil Potassium"
+                android:visibility="visible"
+                android:textColor="@color/Frozi"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/potassium_text"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center|start"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_calender"
+                app:tint="@color/Frozi" />
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="14sp"
+                android:padding="9dp"
+                android:text="Date: please wait" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_wait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Wait "
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            />
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/Frozi"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
