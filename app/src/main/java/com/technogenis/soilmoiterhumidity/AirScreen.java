@@ -29,7 +29,7 @@ public class AirScreen extends AppCompatActivity {
 
     Button btn_back;
 
-    TextView tv_wait,tv_moisture,date_text;
+    TextView tv_wait,tv_moisture,date_text,tv_humidity;
 
     ImageView img_fire_back,imgMoisture;
 
@@ -50,6 +50,7 @@ public class AirScreen extends AppCompatActivity {
         img_fire_back=findViewById(R.id.img_fire_back);
 
         imgMoisture=findViewById(R.id.imgMoisture);
+        tv_humidity=findViewById(R.id.tv_humidity);
 
 
         img_fire_back.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +92,7 @@ public class AirScreen extends AppCompatActivity {
                 User user =snapshot.getValue(User.class);
 
                 tv_moisture.setText("Air Temperature: " +user.getAirTemps() + " C");
-
+                tv_humidity.setText("Air Temperature: " + user.getAirHumidity());
                 tv_wait.setVisibility(View.INVISIBLE);
 
 
